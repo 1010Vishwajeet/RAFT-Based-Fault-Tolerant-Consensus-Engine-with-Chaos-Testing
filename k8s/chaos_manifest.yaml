@@ -1,0 +1,18 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChaosEngine
+metadata:
+  name: raft-chaos
+  namespace: default
+spec:
+  appinfo:
+    appns: "default"
+    applabel: "app=raft-node"
+    appkind: "deployment"
+  chaosServiceAccount: litmus-admin
+  experiments:
+    - name: pod-delete
+      spec:
+        components:
+          env:
+            - name: TOTAL_CHAOS_DURATION
+              value: "15"

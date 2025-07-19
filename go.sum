@@ -1,0 +1,6 @@
+github.com/stretchr/testify v1.8.0 h1:0U5GFMfXZCx+V1+3HDfsZ3kUXbhYr2ffrnmwU1r+7Vw=
+github.com/stretchr/testify v1.8.0/go.mod h1:J9C5wjK/Um6v1BoExOkwW4+IpQJ9Py9XR1LxkT3T3uI=
+golang.org/x/net v0.7.0 h1:RXQlzpDRvqO8xQ+2wAyLJ9Z9C2mh3x9chC4f0XmwntE=
+golang.org/x/net v0.7.0/go.mod h1:4h0p6Qk++YeFZPhWPAeQfI0EYZpBkknHTC6cwviP2sM=
+google.golang.org/grpc v1.56.0 h1:lqzOPWz6cQFbE3axEXYMNcxMIioyK9y3Qznn9yCSd4A=
+google.golang.org/grpc v1.56.0/go.mod h1:6+lbRU/v2ZV9ZgKYh1nC1X8vvROoG+L9ZPYMfwEv5bQ=
