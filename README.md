@@ -1,4 +1,4 @@
-# RAFT-Based Fault-Tolerant Consensus Engine with Chaos Testing
+# RAFT-Based Consensus Engine with Fault-Tolerant Deployment
 
 This project implements a fault-tolerant RAFT consensus engine in **Go** with **gRPC**, tested under **chaos** and **fuzz** conditions using **Kubernetes**, and designed for robust **CI-driven recovery** validation. It is aimed at supporting resilient machine learning infrastructure with high availability and rapid fault recovery.
 
